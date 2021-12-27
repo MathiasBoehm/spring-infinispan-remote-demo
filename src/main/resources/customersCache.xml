@@ -1,0 +1,8 @@
+<distributed-cache name="customers">
+    <encoding media-type="application/x-protostream"/>
+    <indexing enabled="true">
+        <indexed-entities>
+            <indexed-entity>demo.Customer</indexed-entity>
+        </indexed-entities>
+    </indexing>
+</distributed-cache>
